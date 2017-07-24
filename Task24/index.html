@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>JavaScript Practice 24</title>
+        <meta name="author" content="eric" />
+        <meta name="description" content="practice about JS" />
+        <meta name="keywords" content="practice, JS" />
+        
+        <style>
+            input, button {
+                height:20px; 
+                font-size:0.8em; 
+                border:1px solid #0cf; 
+                border-radius:5px;
+                background-color:#fff;
+            }
+            
+            .root {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-around;
+                align-items: center;
+                margin: 40px auto;
+                border: 2px solid #f00;
+                background-color: #fff;
+            }
+            
+            .flex-item {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                box-sizing: border-box;
+                margin: 20px 10px;
+                border: 2px solid #f00;
+                background-color: #fff;
+            }
+            
+            .level1 {
+                height: 220px;
+            }
+            
+            .level2 {
+                height: 150px;
+            }
+            
+            .level3 {
+                height: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="root level0">
+            Supermarket
+            <div class="flex-item level1">
+                Food
+                <div class="flex-item level2">Meat</div>
+                <div class="flex-item level2">Fruit</div>
+                <div class="flex-item level2">Vege</div>
+                <div class="flex-item level2">Seafood</div>
+            </div>
+            <div class="flex-item level1">
+                Electrics
+                <div class="flex-item level2">Regular</div>
+                <div class="flex-item level2">
+                    Smart Devices
+                    <div class="flex-item level3">Phone</div>
+                    <div class="flex-item level3">Computer</div>
+                    <div class="flex-item level3">Watch</div>
+                </div>
+            </div>
+            <div class="flex-item level1">
+                Furniture
+                <div class="flex-item level2">Regular</div>
+                <div class="flex-item level2">Classic</div>
+                <div class="flex-item level2">Mordern</div>
+            </div>
+        </div>
+        <div id="search" style="margin:20px auto; text-align:center">
+            <button id="bfs">Breadth-first search</button>
+            <button id="dfs">Depth-first search</button>
+            <input type="text" id="input">
+            <button id="bfsw">Breadth-first search word</button>
+            <button id="dfsw">Depth-first search word</button>
+        </div>
+        <div id="edit" style="margin:20px auto; text-align:center">
+            <button id="del" style="margin-right:200px">Delete selected element</button>
+            <input type="text" id="newele">
+            <button id="add">Add new element in selected element</button>
+        </div>
+        <script src="p24.js"></script>
+    </body>
+</html>

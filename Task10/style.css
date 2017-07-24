@@ -1,0 +1,61 @@
+* {
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 0 20px;
+}
+
+.flex-container {
+    /* We first create a flex layout context */
+    display: flex;
+
+    /* Then we define the flow direction and if we allow the items to wrap 
+    * Remember this is the same as:
+    * flex-direction: row;
+    * flex-wrap: wrap;
+    */
+    flex-flow: row wrap;
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-item {
+    padding: 20px;
+    width: 106px;
+    margin-top: 20px;
+    border: 2px solid #f00;
+}
+
+.flex-item:first-child {
+    height: 76px;
+    order: 1;
+}
+
+.flex-item:nth-child(2) {
+    height: 56px;
+    order: 2;
+}
+
+.flex-item:nth-child(3) {
+    height: 0;
+    order: 3;
+}
+
+.flex-item:nth-child(4) {
+    height: 156px;
+    order: 4;
+}
+
+@media (max-width: 640px) {
+
+    .flex-container {
+        align-items: flex-start;
+    }  
+    
+    .flex-item:nth-child(4) {
+        order: 0;
+    }
+}

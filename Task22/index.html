@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>JavaScript Practice 22</title>
+        <meta name="author" content="eric" />
+        <meta name="description" content="practice about JS" />
+        <meta name="keywords" content="practice, JS" />
+        
+        <style>
+            button {
+                height:20px; 
+                font-size:0.8em; 
+                border:1px solid #0cf; 
+                border-radius:5px;
+                background-color:#fff;
+            }
+            
+            .root {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-around;
+                align-items: center;
+                width: 1000px;
+                height: 300px;
+                margin: 40px auto;
+                padding: 30px 10px;
+                border: 2px solid #f00;
+                background-color: #fff;
+            }
+            
+            .flex-item {
+                display: flex;
+                justify-content: space-around;
+                box-sizing: border-box;
+                padding: 30px 10px;
+                height: 100%;
+                border: 2px solid #f00;
+            }
+            
+            .level1 {
+                width: 460px;
+                background-color: #fff;
+            }
+            
+            .level2 {
+                width: 170px;
+                background-color: #fff;
+            }
+            
+            .level3 {
+                width: 40px;
+                background-color: #fff;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="root">
+            <div class="flex-item level1">
+                <div class="flex-item level2">
+                    <div class="flex-item level3"></div>
+                    <div class="flex-item level3"></div>
+                </div>
+                <div class="flex-item level2">
+                    <div class="flex-item level3"></div>
+                    <div class="flex-item level3"></div>
+                </div>
+            </div>
+            <div class="flex-item level1">
+                <div class="flex-item level2">
+                    <div class="flex-item level3"></div>
+                    <div class="flex-item level3"></div>
+                </div>
+                <div class="flex-item level2">
+                    <div class="flex-item level3"></div>
+                    <div class="flex-item level3"></div>
+                </div>
+            </div>
+        </div>
+        <div id="btns" style="margin:20px auto; text-align:center">
+            <button id="preorder">Pre-Order</button>
+            <button id="inorder">In-Order</button>
+            <button id="postorder">Post-Order</button>
+        </div>
+        <script src="p22.js"></script>
+    </body>
+</html>

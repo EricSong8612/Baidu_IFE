@@ -1,0 +1,152 @@
+* {
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 400px;
+}
+
+table thead tr {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+}
+
+table tr, td, th {
+    border: 2px solid #fff;
+    height: 2rem;
+    padding-left: .5rem;
+}
+
+table tbody tr:nth-child(2n) {
+    background-color: #ddd;
+}
+
+table tbody tr:nth-child(-n+3) {
+    color: #f00;
+}
+
+input {
+    margin: 30px 0;
+    width: 100px;
+    height: 20px;
+    border: 2px solid #ccc;
+    transition: border-color,width .5s;
+}
+
+input:focus {
+    width: 200px;
+    border-color: #0cf;
+}
+
+.banner {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider {
+    height: inherit;
+    background-color: #f00;
+    animation: .5s slider-init linear;
+}
+
+.slider ul {
+    list-style: none;
+    height: inherit;
+}
+
+.slider ul li {
+    display: inline-block;
+    background-color: #00f;
+    height: inherit;
+    width: 100%;
+    position: absolute;
+    left: -100%;
+    animation: .5s slider-out linear;
+}
+
+#s1 {
+    background-color: #f00;
+}
+
+#s2 {
+    background-color: #0f0;
+}
+
+#s3 {
+    background-color: #00f;
+}
+
+.slider li:target {
+  left: 0%;
+  animation: .5s slider-in linear;
+}
+
+@keyframes slider-init {
+  0% {
+    left: -100%
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+@keyframes slider-out {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+@keyframes slider-in {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+.btns {
+    z-index: 100;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.btns a {
+    display: inline-block;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    line-height: 30px;
+    padding: 0 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

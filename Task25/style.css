@@ -1,0 +1,71 @@
+* {
+    font-family: sans-serif;
+}
+
+input, button {
+    height: 30px; 
+    font-size:1em; 
+    border: 1px solid #0cf; 
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+input {
+    text-indent: 5px;
+}
+
+fieldset {
+    width: 500px;
+    margin: 30px auto;
+    border-color: #ccc;
+}
+
+legend {
+    font-size: 2em;
+    color: #336699;
+}
+
+#search {
+    margin: 10px auto;
+}
+
+.tag {
+    margin: 10px 30px;
+    background-color: #fff;
+}
+
+span {
+    margin-left: 10px;
+    line-height: 1.25em;
+    color: #336699;
+}
+
+span i:first-child {
+    margin-right: 5px;
+}
+
+span i:nth-child(3) {
+    margin-left: 15px;
+}
+
+span i:nth-child(3),span i:nth-child(4) {
+    opacity: 0;
+}
+
+.level0 {
+    font-size: 1.2em;
+}
+
+.level1 {
+    font-size: 1em;
+}
+
+.level2 {
+    font-size: 0.9em;
+    display: none;
+}
+
+.level3 {
+    font-size: 0.875em;
+    display: none;
+}

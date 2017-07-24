@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>JavaScript Practice 20</title>
+        <meta name="author" content="eric" />
+        <meta name="description" content="practice about JS" />
+        <meta name="keywords" content="practice, JS" />
+        
+        <style>
+            textarea, input {
+                font-size:1em; 
+                border:1px solid #0cf; 
+                border-radius:5px; 
+                text-indent:5px;
+            }
+            
+            input {
+                width:200px; 
+                height:20px; 
+            }
+            
+            button {
+                height:20px; 
+                font-size:0.8em; 
+                border:1px solid #0cf; 
+                border-radius:5px;
+                background-color:#fff;
+            }
+            
+            #queue div {
+                display: inline-block;
+                font-size: 2em;
+                text-align: center;
+                padding: 0 15px;
+                margin: 2px 0;
+                margin-right: 10px;
+                height: 50px;
+                line-height: 50px;                
+                background-color: red;
+                color: #fff;
+            }
+            
+            .selected {
+                background-color: #04f;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="inputs" style="margin-bottom:20px">
+            <textarea id="tinput" rows=10 cols=30 placeholder="Please enter your text here"></textarea>
+            <button id="Add">Add</button>
+            <button id="tClear" style="margin-right:50px">Clear</button>
+            <input type="text" id="sinput">
+            <button id="Search">Search</button>
+            <button id="sClear">Clear</button>
+        </div>
+        <div id="queue"></div>
+        
+        <script src="p20.js"></script>
+    </body>
+</html>

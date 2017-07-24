@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>JavaScript Practice 9</title>
+        <meta name="author" content="eric" />
+        <meta name="description" content="practice about JS" />
+        <meta name="keywords" content="practice, JS" />
+        
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <body>
+        <header>
+            <div id="banner">
+                <img src="img/logo.png" alt="logo">
+                <div id="login">
+                    <a href=""><i class="fa fa-user"></i> Log in</a>
+                </div>
+                <div id="search">
+                    <input type="text" />
+                </div>
+            </div>
+        </header>
+        <main>
+            <div id="side">
+                <div id="headpic"><span></span></div>
+                <span id="uname"><strong>ABC123</strong></span>
+                <div id="info">
+                    <ul>
+                        <li>110<br>Favorites</li>
+                        <li>313<br>Followers</li>
+                    </ul>
+                </div> 
+                <div id="items">
+                    <ul> 
+                        <li class="i1"><i class="fa fa-folder-open"></i> Reports
+                            <br>
+                            <ul>
+                                <li class="i2"><i class="fa fa-chevron-right"></i><i class="fa fa-folder-o"></i>Folder 1</li>
+                                <li class="i2"><i class="fa fa-chevron-down"></i><i class="fa fa-folder-open-o"></i>Folder 2
+                                    <br>
+                                    <ul>
+                                        <li class="i3"><i class="fa fa-file-text-o"></i>File 1</li>
+                                        <li class="i3"><i class="fa fa-file-text-o"></i>File 2</li>
+                                    </ul>
+                                </li>
+                                <li class="i2"><i class="fa fa-chevron-right"></i><i class="fa fa-folder-o"></i>Folder 3</li>
+                            </ul>
+                        </li>
+                        <li class="i1"><i class="fa fa-star"></i> Favorits</li>
+                        <li class="i1"><i class="fa fa-share-alt"></i> My Share</li>
+                        <li class="i1"><i class="fa fa-photo"></i> Photos</li>
+                        <li class="i1"><i class="fa fa-book"></i> Records</li>
+                        <li class="i1"><i class="fa fa-cog"></i> Account</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="mpage">
+                <div id="paths">
+                    <span>Station C / Reports / Folder 2 / <span>File 1</span></span>
+                </div>
+                <div id="contents">
+                    <div id="searchdeal">
+                        <form action="">
+                            <div id="dealnum">
+                                <span>Deal Number</span>
+                                <select>
+                                    <option>Deal 1</option>
+                                    <option>Deal n</option>
+                                </select>
+                            </div>
+                            <div id="dealers">
+                                <img src="img/change.png">
+                                <span>Buyer</span>
+                                <select>
+                                    <option>A</option>
+                                    <option>B</option>
+                                </select>
+                                <span>Seller</span>
+                                <select>
+                                    <option>C</option>
+                                    <option>D</option>
+                                </select>
+                            </div>
+                            <div id="dealsum">
+                                <span>Date</span>
+                                <select class="sel80">
+                                    <option>2017-06-26</option>
+                                </select>
+                                <span>Cycle</span>
+                                <select class="sel60">
+                                    <option>2 Days</option>
+                                </select>
+                                <span>People</span>
+                                <select class="sel50">
+                                    <option>10</option>
+                                </select>
+                                <span>Products</span>
+                                <select class="sel50">
+                                    <option>10</option>
+                                </select>
+                            </div>
+                            <input type="submit" name="dealsearch" value="Search">
+                        </form>
+                    </div>
+                    <div id="price">
+                        <div class="parrow"><i class="fa fa-chevron-left"></i></div>
+                        <div class="pprice">
+                            <p>10:00 am</p>
+                            <p><span><i class="fa fa-dollar"></i></span>200</p>
+                        </div>
+                        <div class="pprice">
+                            <p>11:00 am</p>
+                            <p><span><i class="fa fa-dollar"></i></span>210</p>
+                        </div>
+                        <div class="pprice">
+                            <p>12:00 pm</p>
+                            <p><span><i class="fa fa-dollar"></i></span>200</p>
+                        </div>
+                        <div class="pprice">
+                            <p>01:00 pm</p>
+                            <p><span><i class="fa fa-dollar"></i></span>230</p>
+                        </div>
+                        <div class="pprice">
+                            <p>02:00 pm</p>
+                            <p><span><i class="fa fa-dollar"></i></span>250</p>
+                        </div>
+                        <div class="pprice">
+                            <p>03:00 pm</p>
+                            <p><span><i class="fa fa-dollar"></i></span>240</p>
+                        </div>
+                        <div class="parrow"><i class="fa fa-chevron-right"></i></div>
+                        <div class="phistory">
+                            <img src="img/history.png">
+                            <p>History</p>
+                        </div>
+                    </div>
+                    <p>Total number of deals in June, 2017:</p>
+                    <div id="sum">
+                        <div class="dealsum">
+                            <div class="rec"></div>
+                            <p>133311</p>
+                            <p>Number of deals</p>
+                        </div>
+                        <div class="dealsum">
+                            <div class="rec"></div>
+                            <p>133311</p>
+                            <p>Number of deals</p>
+                        </div>
+                        <div class="dealsum">
+                            <div class="rec"></div>
+                            <p>133311</p>
+                            <p>Number of deals</p>
+                        </div>
+                        <div class="dealsum">
+                            <div class="rec"></div>
+                            <p>133311</p>
+                            <p>Number of deals</p>
+                        </div>
+                    </div>
+                    <div id="group1">
+                        <div id="promaterial" class="dform">
+                            <div class="dformh">
+                                <span>Group 1 Project</span>
+                            </div>
+                            <div id="protag">
+                                <div id="ptag1">Project 1</div>
+                                <div class="ptag">Project 2</div>
+                                <div class="ptag">Project 3</div>
+                                <div class="ptag">Project 4</div>
+                                <div class="ptag">Project 5</div>
+                            </div>
+                            <div id="prodetail">
+                                <table>
+                                    <tr>
+                                      <td>Material</td>
+                                      <td>Material</td>
+                                      <td>Material</td>
+                                      <td>Material</td>
+                                    </tr>
+                                      <tr>
+                                      <td>Material</td>
+                                      <td>Material</td>
+                                      <td>Material</td>
+                                      <td>Material</td>
+                                    </tr>
+                                      <tr>
+                                      <td>Material</td>
+                                      <td>Material</td>
+                                      <td>Material</td>
+                                      <td>Material</td>
+                                    </tr>
+                                      <tr>
+                                      <td>Material</td>
+                                      <td>Material</td>
+                                      <td>Material</td>
+                                      <td>Material</td>
+                                    </tr>
+                                      <tr>
+                                      <td>Material</td>
+                                      <td>Material</td>
+                                      <td>Material</td>
+                                      <td>Material</td>
+                                    </tr>
+                                      <tr>
+                                      <td>Material</td>
+                                      <td>Material</td>
+                                      <td>Material</td>
+                                      <td>Material</td>
+                                </tr>
+                              </table>
+                            </div>
+                        </div>
+                        <div id="prorepo" class="dform">
+                            <div class="dformh">
+                                <span>Group 1 Project</span>
+                            </div>
+                            <table>
+                                <tr>
+                                   <td><p>Title</p>
+                                   <p>Project report 3</p></td>
+                                   <td></td>
+                                </tr>
+                                <tr>
+                                   <td id="pricecell"><p>Price</p>
+                                   <p>$200</p></td>
+                                   <td><p>Dealer</p>
+                                   <p>A</p></td>
+                                </tr>
+                                <tr>
+                                   <td><p>Description</p>
+                                   <p>Project report 3...<br><br><br><br><br><br><br></p></td>
+                                   <td></td>
+                                </tr>
+                            </table>
+                            <div id="repofoot">
+                                <span><input type="checkbox" checked> I Agree</span>
+                                <input type="submit" name="dealsearch" value="Search">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tools">
+                        <div id="calendar" class="dform">
+                            <div class="dformh">
+                                <span>Calendar</span>
+                            </div>
+                            <div id="cbody">
+                                <ul>
+                                    <li>
+                                        <select><option>2017</option></select>
+                                    </li>
+                                    <li>
+                                        <select><option>June</option></select>
+                                    </li>
+                                    <li>
+                                        <select><option>28</option></select>
+                                    </li>
+                                    <li>
+                                        <input type="button" name="today" value="Today">
+                                    </li>
+                                </ul>
+                                <table class="days">
+                                    <tr>
+                                        <td>Mon</td>
+                                        <td>Tue</td>
+                                        <td>Wed</td>
+                                        <td>Thu</td>
+                                        <td>Fri</td>
+                                        <td>Sat</td>
+                                        <td>Sun</td>
+                                    </tr>
+                                </table>
+                                <table class="dates">
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td><span class="red">3</span></td>
+                                        <td><span class="red">4</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>6</td>
+                                        <td>7</td>
+                                        <td class="marked">8</td>
+                                        <td>9</td>
+                                        <td><span class="red">10</span></td>
+                                        <td><span class="red">11</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="marked">12</td>
+                                        <td>13</td>
+                                        <td>14<p class="red">Flag D.</p></td>
+                                        <td>15</td>
+                                        <td>16</td>
+                                        <td><span class="red">17</span></td>
+                                        <td><span class="red">18</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>19</td>
+                                        <td>20</td>
+                                        <td>21</td>
+                                        <td>22</td>
+                                        <td>23</td>
+                                        <td><span class="red">24</span></td>
+                                        <td><span class="red">25</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>26</td>
+                                        <td>27</td>
+                                        <td class="marked">28</td>
+                                        <td>29</td>
+                                        <td>30</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div id="ranking" class="dform">
+                            <div class="dformh">
+                                <span>Auto Brand Ranking</span>
+                            </div>
+                            <div id="rtb">
+                                 <table>
+                                    <tr>
+                                        <td class="cb1">Ranking</td>
+                                        <td class="cb2">Brand</td>
+                                        <td class="cb3">Sales</td>
+                                        <td class="cb4"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="cb1">1</td>
+                                        <td class="cb2">Volkswagen</td>
+                                        <td class="cb3">32987893</td>
+                                        <td class="cb4">
+                                            <div class="sbar">
+                                                <p class="s80"></p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="cb1">2</td>
+                                        <td class="cb2">Toyota</td>
+                                        <td class="cb3">31567893</td>
+                                        <td class="cb4">
+                                            <div class="sbar">
+                                                <p class="s75"></p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="cb1">3</td>
+                                        <td class="cb2">Audi</td>
+                                        <td class="cb3">31398493</td>
+                                        <td class="cb4">
+                                            <div class="sbar">
+                                                <p class="s70"></p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="cb1">4</td>
+                                        <td class="cb2">Honda</td>
+                                        <td class="cb3">30678193</td>
+                                        <td class="cb4">
+                                            <div class="sbar">
+                                                <p class="s65"></p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="cb1">5</td>
+                                        <td class="cb2">Ford</td>
+                                        <td class="cb3">30397873</td>
+                                        <td class="cb4">
+                                            <div class="sbar">
+                                                <p class="s60"></p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="cb1">6</td>
+                                        <td class="cb2">BMW</td>
+                                        <td class="cb3">30186323</td>
+                                        <td class="cb4">
+                                            <div class="sbar">
+                                                <p class="s55"></p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="cb1">7</td>
+                                        <td class="cb2">Hyundai</td>
+                                        <td class="cb3">29955693</td>
+                                        <td class="cb4">
+                                            <div class="sbar">
+                                                <p class="s50"></p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="cb1">8</td>
+                                        <td class="cb2">KIA</td>
+                                        <td class="cb3">29891893</td>
+                                        <td class="cb4">
+                                            <div class="sbar">
+                                                <p class="s45"></p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="cb1">9</td>
+                                        <td class="cb2">Mercedes-benz</td>
+                                        <td class="cb3">29774921</td>
+                                        <td class="cb4">
+                                            <div class="sbar">
+                                                <p class="s40"></p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="cb1">10</td>
+                                        <td class="cb2">Buick</td>
+                                        <td class="cb3">28834593</td>
+                                        <td class="cb4">
+                                            <div class="sbar">
+                                                <p class="s35"></p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

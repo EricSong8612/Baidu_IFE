@@ -1,0 +1,408 @@
+* {
+    font-family: Arial, Helvetica, sans-serif; 
+    /*Microsoft YaHei, serif*/
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 1000px;
+    background-color: lightskyblue
+}
+
+#main {
+    background-color: white;
+    width: 980px;
+    height: 1386px;
+    margin: 100px auto;
+}
+
+#thead {
+    width: 892px;
+    height: 61px;
+    border-bottom: 2px solid #938e8c;
+    margin: 0 auto;
+}
+
+#thead p {
+    width: 110px;
+    height: 61px;
+    background-color: #d45d5c;
+    font-size: 12px;
+    color: #ffffff;
+    display:table-cell;
+    vertical-align: bottom;
+}
+
+#thead span {
+    width: 80px;
+    font-size: 12px;
+    color: #d45d5c;
+    display:table-cell;
+    vertical-align: bottom;
+    text-align: right;
+    position: relative;
+    left: 701px;
+}
+
+#top {
+    width: 892px;
+    height: 562px;
+    margin: 0 auto 31px auto;
+}
+
+#tmain {
+    width: 641px;
+    height: 562px;
+    margin: 30px 251px 0 0;
+}
+
+#tmain img {
+    width: 641px;
+    height: 301px;
+    z-index: -1;
+    margin-bottom: 30px;
+}
+
+#tmain #lshadow {
+    background-color: #75b86b;
+    opacity: 0.3;
+    width: 191px;
+    height: 301px;
+    margin-top: -550px;
+}
+
+#tmain #rshadow {
+    background-color: #d45d5c;
+    opacity: 0.3;
+    width: 191px;
+    height: 301px;
+    position: relative;
+    left: 450px;
+    top: -301px;
+}
+
+#tmain #ttext1, #ttext2, #ttext3 {
+    width: 195px;
+    padding: 0 16px 0 0;
+    display: table-cell;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+#heading1, #heading2, #heading3 {
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#heading1 {
+    color: #418c59;
+}
+
+#heading2 {
+    color: #d2994f;
+}
+
+#heading3 {
+    color: #cc7680;
+}
+
+#artical1 {
+    font-family: serif;
+    color: #767777;
+}
+
+#artical2 {
+    font-family: Microsoft Yahei;
+    color: #231815;
+    opacity: 0.7;
+}
+
+#artical3 {
+    font-family: Microsoft Yahei;
+    opacity: 0.7;
+    line-height: 20px;
+}
+
+.ntag {
+    font-style: italic;
+    color: #cd4a48
+}
+
+#tside {
+    width: 203px;
+    height: 301px;
+    float: right;
+    border-top: 2px solid #cc8091;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.stext1 {
+    font-size: 24px;
+    text-decoration: underline;
+    font-variant: small-caps;
+}
+
+#stext2 {
+    font-family: serif;
+    font-size: 14px;
+    font-style: italic;
+    color: #676767;
+}
+
+#stext3 {
+    font-size: 116px;
+    font-style: italic;
+    color: green;
+    opacity: 0.7;
+    margin-left: -12px;
+}
+
+#stext4, #stext5, #stext6 {
+    color: #cc8091;
+    display: table-cell;
+}
+
+#stext4 {
+    width: 80px;
+    font-size: 55px;
+}
+
+#stext5 {
+    width: 40px;
+    font-size: 21px; 
+    position: relative;
+    top: -14px;
+}
+
+#stext6 {
+    font-size: 12px;
+    opacity: 0.7;
+    position: relative;
+    left: -30px;
+}
+
+#bottom {
+    width: 892px;
+    height: 642px;
+    margin: 0 auto;
+}
+
+#bleft {
+    height: 612px;
+    margin-right: 478px;
+}
+
+#bleft span {
+    font-size: 72px;
+    font-style: italic;
+    font-weight: bold;
+    color: #f5e327;
+}
+
+#bleft #blt {
+    border-bottom: 2px solid #11456b;
+    margin-bottom: 10px;
+}
+
+#blt #bltt1, #bltt2 {
+    font-weight: bold;
+    color: #11456b;
+}
+
+#blt #bltt1 {
+    font-size: 36px;
+}
+
+#blt #bltt2 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+#blb img {
+    width: 160px;
+    height: 300px;
+    float: right;
+    margin: 10px 0 10px 10px;
+}
+
+#blb span {
+    font-size: 40px;
+    font-style: normal;
+    color: #f5e327;
+    float: left;
+}
+
+#blb p {
+    font-size: 14px;
+    font-family: serif;
+    color: #767777;
+    text-indent:20px;
+    word-break: break-all;
+}
+
+#blb #blbt {
+    text-indent: 0px;
+}
+
+#bright {
+    width: 458px;
+    height: 612px;
+    float: right;
+}
+
+#bright img {
+    position: absolute;
+    width: 458px;
+    height: 275px;
+    opacity: 0.8;
+}
+
+#pictext {
+    height: 60px;
+    background-color: rgba(0, 0, 255, 0.2);
+    position: relative;
+    top: 215px;
+}
+
+#pictext p {
+    height: 35px;
+    color: white;
+    font-size: 30px;
+    border-left: 3px solid #72b16a;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+#pictext span {
+    color: #72b16a;
+    font-size: 14px;
+    position: absolute;
+    bottom: 15px;
+    left: 173px;
+}
+
+#bright #brb {
+    width: 458px;
+    height: 318px;
+    background-color: rgba(0, 200, 255, 0.3);
+    margin-top: 235px;
+}
+
+#brbt1 {
+    width: 458px;
+    height: 158px;
+}
+
+#brbt1 ul {
+    text-align: left;
+    list-style-type: none;
+    position: absolute;
+    padding: 0 25px 25px 25px;
+}
+
+#brbt1 ul #ltag1 {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid black;
+    float: left;
+    margin: 28px 3px 3px 3px;
+}
+
+#brbt1 ul .ltag {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid black;
+    float: left;
+    margin: 3px;
+}
+
+#brbt1 ul li {
+    font-family: serif;
+    font-size: 16px;
+    color: #5a5b5b;
+    margin: 25px;
+}
+
+#brbt2l {
+    background-color: #d45d5c;
+    width: 260px;
+    height: 160px;
+    float: left;
+    color: white;
+}
+
+#brbt2l p {
+    font-size: 110px;
+    width: 60px;
+    margin: 17px 5px;
+}
+
+#brbt2l div {
+    float: right;
+    width: 170px;
+    height: 81px;
+    margin: 37px 5px;
+    border-left: 2px solid white;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#brbt2l div #one {
+    font-size: 18px;
+    font-style: italic;
+}
+
+#brbt2l div #hello {
+    font-size: 12px;
+}
+
+#brbt2r {
+    width: 158px;
+    height: 120px;
+    float: right;
+    margin: 20px;
+}
+
+#brbt2r p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+#brbt2r #quot1, #quot2 {
+    font-size: 72px;
+    font-style: normal;
+    color: #d45d5c;
+    height: 30px;
+}
+
+#brbt2r #quot1 {
+    float: left;
+}
+
+#brbt2r #quot2 {
+    float: right;
+}
+
+#bfoot {
+    width: 892px;
+    height: 61px;
+    border-top: 1px solid #938e8c;
+    margin: 0 auto;
+}
+
+#bfoot span {
+    font-size: 12px;
+    color: #d45d5c;
+    margin-left: 827px;
+}

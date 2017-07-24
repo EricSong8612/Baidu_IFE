@@ -1,0 +1,103 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+body {
+    padding: 20px;
+}
+
+p {
+    margin: 5px;
+}
+
+#main {
+    background-color: lightskyblue;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #999;
+    overflow: auto;
+    min-width: 900px;
+}
+
+#intro, #bio, #content {
+    background-color: #eee;
+    border: 1px solid #999;
+    padding: 20px;
+}
+
+#logo {
+    position: absolute; 
+    top:30px; 
+    left:30px;
+}
+
+#banner {
+    background-color: mediumpurple;
+    height: 100px;
+    min-width: 940px;
+}
+
+header h1, header h2 {
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    min-width: 400px;
+}
+
+#bookcover {
+    float: left;
+    height: 120px;
+    width: 80px;
+    margin: 5px;
+}
+
+.pic {
+    float: left;
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+}
+
+#intro {
+    float: left;
+    width: 200px;
+}
+
+#bio {
+    float: right;
+    width: 220px;
+}
+
+#content {
+    margin-left: 260px;
+    margin-right: 280px;
+}
+
+#intro p {
+    min-width: 150px;
+    clear: left;
+}
+
+#bio table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    display: block;
+}
+
+#bio table th,td {
+    border: 1px solid darkorchid;
+}
+
+#bio table th,tfoot {
+    background-color: mediumpurple;
+}
+
+footer {
+    background-color: mediumpurple;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    min-width: 940px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>JavaScript Practice 18</title>
+        <meta name="author" content="eric" />
+        <meta name="description" content="practice about JS" />
+        <meta name="keywords" content="practice, JS" />
+        
+        <style>
+            input {
+                width:200px; 
+                height:20px; 
+                font-size:1em; 
+                border:1px solid #0cf; 
+                border-radius:5px; 
+                text-indent:5px;
+            }
+            
+            button {
+                height:20px; 
+                font-size:0.8em; 
+                border:1px solid #0cf; 
+                border-radius:5px;
+                background-color:#fff;
+            }
+            
+            #queue div {
+                display: inline-block;
+                font-size: 2em;
+                text-align: center;
+                padding: 0 15px;
+                margin: 2px 0;
+                margin-right: 10px;
+                height: 50px;
+                line-height: 50px;                
+                background-color: red;
+                color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="inputs" style="margin-bottom:20px">
+            <input type="text" id="input">
+            <button id="AfL">Add from left</button>
+            <button id="AfR" style="margin-right:50px">Add from right</button>
+            <button id="DfL">Delete from left</button>
+            <button id="DfR">Delete from right</button>
+        </div>
+        <div id="queue"></div>
+        
+        <script src="p18.js"></script>
+    </body>
+</html>

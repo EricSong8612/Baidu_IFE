@@ -1,0 +1,42 @@
+body {
+    padding-left: 20px;
+}
+
+div {
+    margin: 20px 0;
+}
+
+textarea, input {
+    font-size:1em; 
+    border:1px solid #0cf; 
+    border-radius:5px; 
+    text-indent:5px;
+}
+            
+input {
+    width:200px; 
+    height:20px; 
+}
+
+button {
+    height:20px; 
+    font-size:0.8em; 
+    border:1px solid #0cf;
+    color: #0af;
+    border-radius:5px;
+    background-color:#fff;
+}
+
+#tqueue div, #lqueue div {
+    display: inline-block;
+    font-size: 2em;
+    text-align: center;
+    padding: 0 10px;
+    margin-right: 10px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #0099ff;
+    border-radius: 10px;
+    background-color: #0099ff;
+    color: #fff;
+}

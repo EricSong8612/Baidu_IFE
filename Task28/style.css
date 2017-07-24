@@ -1,0 +1,222 @@
+* {
+    font-family: sans-serif;
+}
+
+span, button {
+    height: 30px; 
+    font-size:1em; 
+    border: 1px solid #0cf; 
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+main {
+    margin: auto;
+    width: 1000px;
+    border: 1px solid #000;
+}
+
+#space-controlCenter {
+    float: left;
+    width: 700px;
+    height: 700px;
+}
+
+#space {
+    height: 500px;
+    background-color: #333;
+}
+
+#track1, #track2, #track3, #track4 {
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+#track1 {
+    width: 150px;
+    height: 150px; 
+}
+
+#track2 {
+    width: 250px;
+    height: 250px;
+}
+
+#track3 {
+    width: 350px;
+    height: 350px;
+}
+
+#track4 {
+    width: 450px;
+    height: 450px;
+    left: 125px;
+    top: 25px;
+}
+
+.free {
+    border: 2px solid aliceblue;
+}
+
+.busy {
+    border: 2px solid #ff0;
+}
+
+#earth {
+    width: 150px;
+    height: 150px;
+}
+
+#controlCenter {
+    height: 180px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 5px;
+    margin: 10px 0;
+}
+
+ul li {
+    font-size: 1em;
+    height: 30px;
+    margin: 7px 0;
+}
+
+ul li span {
+    padding: 5px 10px;
+    background-color: #0cf;
+    color: #fff;
+}
+
+.startbtn, .stopbtn, .destroybtn, #spaceships div {
+    margin-left: 20px;
+}
+
+#spaceships div, .fuel {
+    display: inline-block;
+}
+
+.fuel {
+    display: inline-block;
+    height: 10px;
+    background-color: #0a1;
+}
+
+#console {
+    width: 280px;
+    height: 680px;
+    margin-left: 700px;
+    padding: 10px;
+}
+
+#consoleLog {
+    height: 600px;
+    overflow:scroll;
+}
+
+#consoleLog p {
+    font-family: monospace;
+    color: blue;
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+#clear {
+    float: right;
+    margin-top: 50px;
+}
+
+
+i.fa.fa-space-shuttle {
+    color: red;
+    font-size: 40px;
+    position: absolute;
+    top: -20px;
+}
+
+@keyframes rotation{  
+      0% {transform: rotate(0deg); }
+    100% {transform: rotate(360deg);  }  
+}
+
+#ship1 {
+    left: 50px;
+}
+
+.animationship1 {
+    animation: animX1 4s cubic-bezier(0.38,0,0.62,1) -2s infinite alternate, animY1 4s cubic-bezier(0.38,0,0.62,1)  0s infinite alternate, rotation 8s linear infinite;
+}
+
+@keyframes animX1{  
+      0% {left: -20px; }
+    100% {left: 130px; }  
+}  
+@keyframes animY1{  
+      0% {top: -20px;}  
+    100% {top: 130px;}  
+}
+
+#ship2 {
+    left: 100px;
+}
+
+.animationship2 {
+    animation: animX2 4s cubic-bezier(0.38,0,0.62,1) -2s infinite alternate, animY2 4s cubic-bezier(0.38,0,0.62,1)  0s infinite alternate, rotation 8s linear infinite;
+}
+
+@keyframes animX2{  
+      0% {left: -20px; }
+    100% {left: 230px; }  
+}  
+@keyframes animY2{  
+      0% {top: -20px;}  
+    100% {top: 230px;}  
+}
+
+#ship3 {
+    left: 150px;
+}
+
+.animationship3 {
+    animation: animX3 4s cubic-bezier(0.38,0,0.62,1) -2s infinite alternate, animY3 4s cubic-bezier(0.38,0,0.62,1)  0s infinite alternate, rotation 8s linear infinite;
+}
+
+@keyframes animX3{  
+      0% {left: -20px; }
+    100% {left: 330px; }  
+}  
+@keyframes animY3{  
+      0% {top: -20px;}  
+    100% {top: 330px;}  
+}
+
+#ship4 {
+    left: 200px;
+}
+
+.animationship4 {
+    animation: animX4 4s cubic-bezier(0.38,0,0.62,1) -2s infinite alternate, animY4 4s cubic-bezier(0.38,0,0.62,1)  0s infinite alternate, rotation 8s linear infinite;
+}
+
+@keyframes animX4{  
+      0% {left: -20px; }
+    100% {left: 430px; }  
+}  
+@keyframes animY4{  
+      0% {top: -20px;}  
+    100% {top: 430px;}  
+}
+
+
+
+
+
+
+
+
+

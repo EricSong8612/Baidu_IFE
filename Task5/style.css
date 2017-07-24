@@ -1,0 +1,159 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+body {
+    min-width: 1000px;
+}
+
+p {
+    padding: 10px;
+}
+
+#main {
+    background-color: white;
+}
+
+#side {
+    float: right;
+    width: 400px;
+    margin: 0 20px 0 0;
+}
+
+#intro, #bio, #content, #comments {
+    margin: 20px 480px 20px 20px;
+}
+
+#intro, #bio, #content, #comments, #side{
+    background-color: rgb(125, 225, 255);
+    overflow: auto;
+    padding: 20px;
+    border: 1px solid rgb(125, 225, 255);
+    border-radius: 10px;
+}
+
+#logo {
+    position: absolute; 
+    top:10px; 
+    left:10px;
+}
+
+#banner {
+    background-color: mediumpurple;
+    height: 100px;
+}
+
+header h1, header h2 {
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    min-width: 400px;
+}
+
+header nav {
+    position: absolute;
+    right: 10px;
+    min-width: 500px;
+}
+
+header nav li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#bookcover {
+    float: left;
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+}
+
+.pic {
+    float: left;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+
+#intro p {
+    min-width: 240px;
+    margin-left: 220px;
+}
+
+#bio table {
+    border-collapse: collapse;
+    display: block;
+    margin-left: 220px;
+    min-width: 600px;
+    max-height: 400px;
+}
+
+#bio table th,td {
+    border: 2px solid darkorchid;
+    height: 30px;
+    padding: 5px;
+}
+
+#bio table th,tfoot {
+    background-color: mediumpurple;
+}
+
+#content p {
+    min-width: 440px;
+    clear: both;
+}
+
+#comments ol {
+    margin: 10px;
+    padding: 10px;
+    min-width: 440px;
+}
+
+.note {
+    color: gray;
+    font-size: 15px;
+    position: relative;
+    left: 40%;
+}
+
+form label{
+    float: right;
+    padding-right: 10px;
+    position: relative;
+    right: 60%;
+}
+
+form span {
+    position: relative;
+    left: 40%;
+}
+
+textarea {
+    position: relative;
+    left: 40%;
+}
+
+#sub {
+    width: 50%;
+    height: 30px;
+    background-color: mediumpurple;
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    left: 25%;
+}
+
+footer {
+    background-color: mediumpurple;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+}
